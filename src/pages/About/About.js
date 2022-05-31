@@ -11,18 +11,24 @@ export default function About() {
     <div className="about">
       <div className="profile">
         <div className="introduce">
-          <p className="title">Profile</p>
+          <p className="title-1">Profile</p>
+          <hr></hr>
           <p className="title">Megan Sen</p>
-          <p>Front end developer based in the UK</p>
-          <p>Graduated a coding course Feb 2022</p>
-          <p>Internship at dijipiji in the UK since Feb 2022</p>
+          <p>Front End Developer based in the UK</p>
+          <p>Graduated from a coding course in Feb 2022</p>
+          <p>Internship at dijipiji in Edinburgh since Feb 2022</p>
           <p className="title">Skill</p>
-          <p>React</p>
+          <p>React, Javascript</p>
           <p className="title">Contact</p>
+          <p>megan@dijipiji.is</p>
           <p className="title">Detail</p>
           CV <FontAwesomeIcon icon={faPaperclip}></FontAwesomeIcon>
         </div>
-        <img src={avatar} alt="my-avatar" className="my-avatar" />
+        <div className="avatar">
+          <div className="my-avatar-shadow-2"></div>
+          <div className="my-avatar-shadow-1"></div>
+          <img src={avatar} alt="my-avatar" className="my-avatar" />
+        </div>
       </div>
     </div>
   );

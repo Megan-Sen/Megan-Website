@@ -9,3 +9,10 @@
     height: 2rem;
     width: 2rem;
 }
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  right:0;
+}

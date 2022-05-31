@@ -6,7 +6,7 @@ function Logo() {
     <>
       <div className="logo">
         <h1>Megan Sen</h1>
-        <h4>Front end web developer portforiosite</h4>
+        <h3>Front End Developer - Javascript & React</h3>
       </div>
     </>
   );
