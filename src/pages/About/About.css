@@ -4,7 +4,21 @@
 }
 
 .my-avatar{
-    height: 15rem;
-    width: 15rem;
+    height: 18rem;
+    width: 17rem;
     border-radius: 1000px;
+    margin: 6rem 0 0 10rem;
+    /* border: 3px solid rgb(74, 75, 74); */
+}
+
+.profile{
+display: flex;
+}
+
+.introduce{
+    margin: 3rem 0 0 10rem;
+}
+
+.title{
+    font-size: 1.5rem;
 }
