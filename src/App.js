@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
+import Logo from "./components/Logo/Logo";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 // Home:
@@ -12,9 +14,12 @@ import Works from "./pages/Works/Works";
 
 function App() {
   return (
-    <div>
-      <Nav />
+    <div className="app">
       <Router>
+        <div className="nav-bar">
+          <Logo />
+          <Nav />
+        </div>
         <main>
           <Switch>
             <Route exact path="/" component={Home} />
@@ -23,6 +28,7 @@ function App() {
           </Switch>
         </main>
       </Router>
+      <Footer />
     </div>
   );
 }

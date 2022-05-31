@@ -1,0 +1,10 @@
+.about{
+      width: 100vw;
+    height:68vh
+}
+
+.my-avatar{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1000px;
+}
