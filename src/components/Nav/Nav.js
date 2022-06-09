@@ -18,8 +18,8 @@ function Nav(){
               </Link>
             </li>
             <li>
-              <Link className="link" to="/product">
-                Product
+              <Link className="link" to="/works">
+                Works
               </Link>
             </li>
           </ul>

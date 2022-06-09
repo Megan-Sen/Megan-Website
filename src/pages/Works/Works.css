@@ -1,0 +1,47 @@
+#works-container{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 2rem 0 5rem;
+}
+
+.cyf-work{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.work-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.work-img{
+    height: 35vh;
+    width: 25vw;
+}
+
+.dijipiji-work{
+      display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.works-title{
+    font-size: 1rem;
+    text-decoration:double;
+    background-color: rgb(158, 153, 153);
+    color: white;
+    padding: 0.5rem 2rem;
+    margin-right:1rem;
+}
+
+.work-title{
+    font-size: 1rem;
+    color: black;
+}
