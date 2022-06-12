@@ -1,19 +1,19 @@
 #works-container{
     display: flex;
     flex-direction: column;
-    margin: 3rem 2rem 0 5rem;
+    margin: 1rem 2rem 0 5rem;
 }
 
 .cyf-work{
     display: flex;
     flex-direction: column;
+    margin-top: 2rem;
     /* background-color: aquamarine; */
 }
 
 .cards-container{
     display: flex;
     justify-content: space-around;
-    margin-top: 1rem;
 }
 
 .work-card{
@@ -22,14 +22,14 @@
 }
 
 .work-img{
-    height: 35vh;
-    width: 25vw;
+    height: 32vh;
+    width: 28vw;
 }
 
 .dijipiji-work{
-      display: flex;
+    display: flex;
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .works-title{
@@ -37,11 +37,22 @@
     text-decoration:double;
     background-color: rgb(158, 153, 153);
     color: white;
-    padding: 0.5rem 2rem;
+    padding: 0.3rem 2rem;
     margin-right:1rem;
 }
 
 .work-title{
     font-size: 1rem;
     color: black;
+    margin-bottom:0.5rem;
+}
+
+
+#works-container {
+	animation: fadein 1s forwards;
+}
+
+@keyframes fadein {
+	0% {opacity: 0}
+	100% {opacity: 1}
 }

@@ -1,6 +1,15 @@
 .about{
-    height:100vh
+    height:100vh;
+    animation: fadein 1s forwards;
 }
+
+
+
+@keyframes fadein {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
 .profile{
 display: flex;
 justify-content:flex-start;
