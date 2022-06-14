@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
 import Logo from "./components/Logo/Logo";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 // Home:
@@ -20,6 +20,8 @@ function App() {
           <Logo />
           <Nav />
         </div>
+        <hr />
+        <h3>Front End Developer - JavaScript & React</h3>
         <main>
           <Switch>
             <Route exact path="/" component={Home} />
@@ -28,7 +30,7 @@ function App() {
           </Switch>
         </main>
       </Router>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

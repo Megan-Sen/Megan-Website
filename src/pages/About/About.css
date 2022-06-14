@@ -1,9 +1,11 @@
 .about{
-    height:100vh;
+    height:80vh;
     animation: fadein 1s forwards;
 }
 
-
+h3{
+    margin-left:5rem;
+}
 
 @keyframes fadein {
 	0% {opacity: 0}
@@ -71,4 +73,10 @@ hr{
     background-color:rgb(60, 70, 70);
     border: none;
     height:1px;
+}
+
+.fixed-footer{
+      position: fixed;
+  bottom: 0;
+  right:0;
 }

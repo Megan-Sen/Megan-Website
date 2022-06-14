@@ -1,58 +1,24 @@
-#works-container{
+.works-conteiner{
+    animation: fadein 1s forwards;
     display: flex;
-    flex-direction: column;
-    margin: 1rem 2rem 0 5rem;
-}
-
-.cyf-work{
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-    /* background-color: aquamarine; */
-}
-
-.cards-container{
-    display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
+    margin:4rem 3rem 10rem 3rem;
 }
 
-.work-card{
-    display: flex;
-    flex-direction: column;
-}
-
-.work-img{
-    height: 32vh;
-    width: 28vw;
-}
-
-.dijipiji-work{
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-}
-
-.works-title{
-    font-size: 1rem;
-    text-decoration:double;
-    background-color: rgb(158, 153, 153);
-    color: white;
-    padding: 0.3rem 2rem;
-    margin-right:1rem;
-}
-
-.work-title{
-    font-size: 1rem;
-    color: black;
-    margin-bottom:0.5rem;
-}
-
-
-#works-container {
-	animation: fadein 1s forwards;
-}
 
 @keyframes fadein {
 	0% {opacity: 0}
 	100% {opacity: 1}
+}
+
+.work-title{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.work-date{
+     text-align: center;
+    font-size: 1.3rem;
 }

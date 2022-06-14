@@ -1,10 +1,64 @@
 .hero-container{
-    display: flex;
-    justify-content: flex-start;
-    margin-left:10rem;
+display:flex;
+justify-content: center;
+width: 100vw;
+animation: fadein 3s forwards;
 }
-.hero{
-    width:20vw;
+@keyframes fadein {
+	0% {opacity: 0}
+	100% {opacity: 1}
 }
 
+.js1{
+    padding:8vw;
+    background-image: linear-gradient(to right,rgb(255, 0, 128), rgb(240, 94, 196));
+    border-radius: 300px;
+    position: relative;
+    margin-left: 25vw;
+    margin-top:13vh;
+    color: white;
+    font-size: 1rem;
+    
+}
+
+.js2{
+    padding:13vw;
+    background-image: linear-gradient(to right,rgb(0, 102, 255), rgb(72, 236, 241));
+    border-radius: 200px;
+    position: absolute;
+    top:43vh;
+    left:34vw;
+}
+.js3{
+    padding:7vw;
+    background-image: linear-gradient(to right,rgb(240, 168, 14), rgba(245, 232, 117, 0.993));
+    border-radius: 100px;
+    position: absolute;
+     top:24vh;
+    left:43vw;
+}
+.js4{
+    padding:3vw;
+    background-image: linear-gradient(to right,rgb(37, 14, 240), rgba(109, 170, 248, 0.993));
+    border-radius: 100px;
+    position: absolute;
+     top:45vh;
+    left:20vw;
+}
+.js5{
+    padding:2.5vw;
+    background-image: linear-gradient(to right,rgb(240, 14, 153), rgba(250, 152, 250, 0.993)); 
+    border-radius: 200px;
+    position: absolute;
+     top:70vh;
+    left:77vw;
+}
+.js6{
+    padding:2vw;
+    background-image: linear-gradient(to right,rgb(47, 50, 240), rgba(175, 66, 248, 0.993)); 
+    border-radius: 200px;
+    position: absolute;
+     top:90vh;
+    left:60vw;
+}
 

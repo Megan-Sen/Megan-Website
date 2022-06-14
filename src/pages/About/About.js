@@ -2,8 +2,8 @@ import React from "react";
 // import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperclip } from "@fortawesome/free-solid-svg-icons";
-
 import "./About.css";
+import Footer from "../../components/Footer/Footer";
 // import avatar from "./avatar.png";
 
 export default function About() {
@@ -15,8 +15,8 @@ export default function About() {
           <hr></hr>
           <p className="title">Megan Sen</p>
           <p>Front End Developer based in the UK</p>
-          <p>Graduated from a coding course CODE YOUR FUTURE in Feb 2022</p>
-          <p>Internship at dijipiji in Edinburgh since Feb 2022</p>
+          <p>Internship at DIJIPIJI LIMITED in Edinburgh since Feb 2022</p>
+          <p>Graduated from 1 year coding course CODE YOUR FUTURE in Feb 2022</p>
           <p className="title">Skill</p>
           <p>React, Javascript, Node.js</p>
           <p className="title">Contact</p>
@@ -29,6 +29,9 @@ export default function About() {
           <div className="my-avatar-shadow-1"></div>
           <img src={avatar} alt="my-avatar" className="my-avatar" />
         </div> */}
+      </div>
+      <div className="fixed-footer">
+        <Footer />
       </div>
     </div>
   );
