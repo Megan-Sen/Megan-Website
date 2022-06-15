@@ -9,9 +9,9 @@ import Work from "../../components/Work/Work";
 import bg1 from "./bg1.png";
 import bg2 from "./bg2.png";
 import bg3 from "./bg3.png";
-import hover1 from "./bg4.png";
-import hover2 from "./bg5.png";
-import hover3 from "./bg6.png";
+// import hover1 from "./bg4.png";
+// import hover2 from "./bg5.png";
+// import hover3 from "./bg6.png";
 
 const worksImages = [
   { img: bg1, img2: finalproject, url: "#", title:"Website for SensetionalLife", date:"February 2022"},
