@@ -5,8 +5,9 @@
 }
 
 h3{
-  margin-left: 5rem;
+  margin-left: 2rem;
 }
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -17,9 +18,15 @@ h3{
     src: url("./Rafale-BG.otf") format("opentype");
 }
 
-@media (max-width: 500px){
+@media (max-width: 700px){
 .nav-bar{
 display: flex;
 flex-direction: column;
   }
+
+h3{
+  margin-left:0.5rem;
+  font-size: 1rem;
+  text-align: center;
+}
 }

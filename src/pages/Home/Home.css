@@ -14,8 +14,8 @@ animation: fadein 3s forwards;
     background-image: linear-gradient(to right,rgb(255, 0, 128), rgb(240, 94, 196));
     border-radius: 300px;
     position: relative;
-    margin-left: 25vw;
-    margin-top:13vh;
+    margin-left: 24vw;
+    margin-top:16vh;
     color: white;
     font-size: 1rem;
     
@@ -24,7 +24,7 @@ animation: fadein 3s forwards;
 .js2{
     padding:13vw;
     background-image: linear-gradient(to right,rgb(0, 102, 255), rgb(72, 236, 241));
-    border-radius: 200px;
+    border-radius: 400px;
     position: absolute;
     top:43vh;
     left:34vw;
@@ -32,9 +32,9 @@ animation: fadein 3s forwards;
 .js3{
     padding:7vw;
     background-image: linear-gradient(to right,rgb(240, 168, 14), rgba(245, 232, 117, 0.993));
-    border-radius: 100px;
+    border-radius: 300px;
     position: absolute;
-     top:24vh;
+     top:28vh;
     left:43vw;
 }
 .js4{
@@ -42,7 +42,7 @@ animation: fadein 3s forwards;
     background-image: linear-gradient(to right,rgb(37, 14, 240), rgba(109, 170, 248, 0.993));
     border-radius: 100px;
     position: absolute;
-     top:45vh;
+     top:40vh;
     left:20vw;
 }
 .js5{
@@ -50,7 +50,7 @@ animation: fadein 3s forwards;
     background-image: linear-gradient(to right,rgb(240, 14, 153), rgba(250, 152, 250, 0.993)); 
     border-radius: 200px;
     position: absolute;
-     top:70vh;
+     top:65vh;
     left:77vw;
 }
 .js6{
@@ -58,7 +58,7 @@ animation: fadein 3s forwards;
     background-image: linear-gradient(to right,rgb(47, 50, 240), rgba(175, 66, 248, 0.993)); 
     border-radius: 200px;
     position: absolute;
-     top:90vh;
+     top:85vh;
     left:60vw;
 }
 
