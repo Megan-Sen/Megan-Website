@@ -22,6 +22,7 @@ function App() {
         </div>
         <hr />
         <h3>Front End Developer - JavaScript & React</h3>
+
         <main>
           <Switch>
             <Route exact path="/" component={Home} />

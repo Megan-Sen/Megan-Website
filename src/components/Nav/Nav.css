@@ -15,6 +15,10 @@ li{
     text-decoration: none;
 }
 
+.line-under-nav{
+    display: none;
+}
+
 @media (max-width: 700px){
 ul{
 padding-left:0;
@@ -22,6 +26,12 @@ margin:0;
   }
 
 li{
-    margin: 0.5rem 1rem 0.5rem 2rem;
+    margin: 0rem 1rem 0rem 2rem;
+    font-size: 1rem;
 } 
+
+.line-under-nav{
+    display: block;
+}
+
 }

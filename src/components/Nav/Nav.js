@@ -23,6 +23,7 @@ function Nav(){
               </Link>
             </li>
           </ul>
+          <hr className="line-under-nav" />
         </nav>
       </>
     );

@@ -13,16 +13,13 @@ h3{
     color: rgb(102, 101, 101);
 }
 
-.line-under-logo{
-    display: none;
-}
+
 
 @media (max-width: 700px){
-.line-under-logo{
-    display:block
-}
+
 h1{
-    margin: 1rem 0 0 0.5rem;
-    font-size:3rem;
+    margin: 0 0 0 0.5rem;
+    font-size:1.5rem;
 }
+
 }

@@ -63,7 +63,7 @@ animation: fadein 3s forwards;
 }
 
 
-@media (max-width: 500px){
+@media (max-width: 700px){
 .js1{
     padding:10vw;
     margin-left: 45vw;
@@ -71,8 +71,9 @@ animation: fadein 3s forwards;
   }
 
 .js2{
-    padding:18vw;
+    padding:20vw;
     top: 50vh;
+    left:30vw;
 }
 
 .js3{

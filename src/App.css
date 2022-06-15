@@ -21,12 +21,13 @@ h3{
 @media (max-width: 700px){
 .nav-bar{
 display: flex;
-flex-direction: column;
+flex-direction: column-reverse;
   }
 
 h3{
   margin-left:0.5rem;
-  font-size: 1rem;
-  text-align: center;
+  font-size: 0.8rem;
 }
+
+
 }
