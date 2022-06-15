@@ -4,6 +4,9 @@
   font-family: "Rafale-BG";
 }
 
+h3{
+  margin-left: 5rem;
+}
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -12,4 +15,11 @@
 @font-face {
     font-family: "Rafale-BG";
     src: url("./Rafale-BG.otf") format("opentype");
+}
+
+@media (max-width: 500px){
+.nav-bar{
+display: flex;
+flex-direction: column;
+  }
 }

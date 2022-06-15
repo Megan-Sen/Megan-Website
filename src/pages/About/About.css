@@ -1,11 +1,12 @@
 .about{
     height:80vh;
     animation: fadein 1s forwards;
+    margin-left:8rem;
 }
 
-h3{
+/* h3{
     margin-left:5rem;
-}
+} */
 
 @keyframes fadein {
 	0% {opacity: 0}
@@ -53,7 +54,7 @@ justify-content:flex-start;
 
 .introduce{
     margin-top: 5rem;
-    margin-left: 8rem;
+    /* margin-left: 8rem; */
 }
  
 .title-1{
@@ -79,4 +80,10 @@ hr{
       position: fixed;
   bottom: 0;
   right:0;
+}
+
+@media (max-width: 500px){
+    .about{
+        margin: 0 2rem 0 2rem;
+    }
 }

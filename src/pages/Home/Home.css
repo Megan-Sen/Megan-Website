@@ -62,3 +62,36 @@ animation: fadein 3s forwards;
     left:60vw;
 }
 
+
+@media (max-width: 500px){
+.js1{
+    padding:10vw;
+    margin-left: 45vw;
+    margin-top:15vh;
+  }
+
+.js2{
+    padding:18vw;
+    top: 50vh;
+}
+
+.js3{
+    padding:8vw;
+    top:44vh;
+    left:50vw;
+}
+
+.js4{
+    padding:4vw;
+    top:50vh;
+    left:10vw;
+}
+.js5{
+    top:70vh;
+}
+
+.js6{
+    top:80vh;
+    left:40vw;
+}
+}
