@@ -1,98 +1,151 @@
-.hero-container{
-display:flex;
-justify-content: center;
-width: 100vw;
-animation: fadein 3s forwards;
+.hero-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  animation: fadein 3s forwards;
 }
 @keyframes fadein {
-	0% {opacity: 0}
-	100% {opacity: 1}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.js1{
-    padding:8vw;
-    background-image: linear-gradient(to right,rgb(255, 0, 128), rgb(240, 94, 196));
-    border-radius: 300px;
-    position: relative;
-    margin-left: 24vw;
-    margin-top:16vh;
-    color: white;
-    font-size: 1rem;
-    
+.js1 {
+  padding: 8vw;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 0, 128),
+    rgb(240, 94, 196)
+  );
+  border-radius: 300px;
+  position: relative;
+  margin-left: 24vw;
+  margin-top: 16vh;
+  color: white;
+  font-size: 1rem;
 }
 
-.js2{
-    padding:13vw;
-    background-image: linear-gradient(to right,rgb(0, 102, 255), rgb(72, 236, 241));
-    border-radius: 400px;
-    position: absolute;
-    top:43vh;
-    left:34vw;
+.js2 {
+  padding: 13vw;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 102, 255),
+    rgb(72, 236, 241)
+  );
+  border-radius: 400px;
+  position: absolute;
+  top: 43vh;
+  left: 34vw;
 }
-.js3{
-    padding:7vw;
-    background-image: linear-gradient(to right,rgb(240, 168, 14), rgba(245, 232, 117, 0.993));
-    border-radius: 300px;
-    position: absolute;
-     top:28vh;
-    left:43vw;
+.js3 {
+  padding: 7vw;
+  background-image: linear-gradient(
+    to right,
+    rgb(240, 168, 14),
+    rgba(245, 232, 117, 0.993)
+  );
+  border-radius: 300px;
+  position: absolute;
+  top: 28vh;
+  left: 43vw;
 }
-.js4{
-    padding:3vw;
-    background-image: linear-gradient(to right,rgb(37, 14, 240), rgba(109, 170, 248, 0.993));
-    border-radius: 100px;
-    position: absolute;
-     top:40vh;
-    left:20vw;
+.js4 {
+  padding: 3vw;
+  background-image: linear-gradient(
+    to right,
+    rgb(37, 14, 240),
+    rgba(109, 170, 248, 0.993)
+  );
+  border-radius: 100px;
+  position: absolute;
+  top: 40vh;
+  left: 20vw;
 }
-.js5{
-    padding:2.5vw;
-    background-image: linear-gradient(to right,rgb(240, 14, 153), rgba(250, 152, 250, 0.993)); 
-    border-radius: 200px;
-    position: absolute;
-     top:65vh;
-    left:77vw;
+.js5 {
+  padding: 2.5vw;
+  background-image: linear-gradient(
+    to right,
+    rgb(240, 14, 153),
+    rgba(250, 152, 250, 0.993)
+  );
+  border-radius: 200px;
+  position: absolute;
+  top: 65vh;
+  left: 77vw;
 }
-.js6{
-    padding:2vw;
-    background-image: linear-gradient(to right,rgb(47, 50, 240), rgba(175, 66, 248, 0.993)); 
-    border-radius: 200px;
-    position: absolute;
-     top:85vh;
-    left:60vw;
+.js6 {
+  padding: 2vw;
+  background-image: linear-gradient(
+    to right,
+    rgb(47, 50, 240),
+    rgba(175, 66, 248, 0.993)
+  );
+  border-radius: 200px;
+  position: absolute;
+  top: 85vh;
+  left: 60vw;
 }
 
 
-@media (max-width: 700px){
-.js1{
-    padding:10vw;
-    margin-left: 45vw;
-    margin-top:15vh;
+
+@media (max-width: 1024px) {
+    .js1 {
+    padding: 9vw;
+    margin-left: 34vw;
+    margin-top: 20vh;
   }
 
-.js2{
-    padding:20vw;
+  .js2 {
+    padding: 17vw;
+    top: 45vh;
+    left: 35vw;
+  }
+
+  .js3 {
+    padding: 8vw;
+    top: 32vh;
+    left: 50vw;
+  }
+    .js6 {
+    padding: 2vw;
+    top: 75vh;
+    left: 40vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .js1 {
+    padding: 10vw;
+    margin-left: 38vw;
+    margin-top: 24vh;
+  }
+
+  .js2 {
+    padding: 20vw;
+    top: 45vh;
+    left: 28vw;
+  }
+
+  .js3 {
+    padding: 9vw;
+    top: 36vh;
+    left: 47vw;
+  }
+
+  .js4 {
+    padding: 4vw;
     top: 50vh;
-    left:30vw;
-}
+    left: 10vw;
+  }
+  .js5 {
+    top: 70vh;
+  }
 
-.js3{
-    padding:8vw;
-    top:44vh;
-    left:50vw;
-}
-
-.js4{
-    padding:4vw;
-    top:50vh;
-    left:10vw;
-}
-.js5{
-    top:70vh;
-}
-
-.js6{
-    top:80vh;
-    left:40vw;
-}
+  .js6 {
+    top: 80vh;
+    left: 40vw;
+  }
 }

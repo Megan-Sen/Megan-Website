@@ -1,7 +1,7 @@
-.about{
-    height:80vh;
-    animation: fadein 1s forwards;
-    margin-left:8rem;
+.about {
+  height: 80vh;
+  animation: fadein 1s forwards;
+  margin-left: 8rem;
 }
 
 /* h3{
@@ -9,13 +9,17 @@
 } */
 
 @keyframes fadein {
-	0% {opacity: 0}
-	100% {opacity: 1}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.profile{
-display: flex;
-justify-content:flex-start;
+.profile {
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* .avatar{
@@ -51,43 +55,54 @@ justify-content:flex-start;
     left:3rem;
 } */
 
-
-.introduce{
-    margin-top: 5rem;
-    /* margin-left: 8rem; */
-}
- 
-.title-1{
-    font-size: 1.5rem;
+.introduce {
+  margin-top: 5rem;
+  /* margin-left: 8rem; */
 }
 
-.title{
-    font-size: 1.3rem;
-    margin: 1rem 0 0.5rem 0;
+.title-1 {
+  font-size: 1.5rem;
 }
 
-p{
-    margin-top:0;
+.title {
+  font-size: 1.3rem;
+  margin: 1rem 0 0.5rem 0;
 }
 
-hr{
-    background-color:rgb(60, 70, 70);
-    border: none;
-    height:1px;
+p {
+  margin-top: 0;
 }
 
-.fixed-footer{
-position: fixed;
+hr {
+  background-color: rgb(60, 70, 70);
+  border: none;
+  height: 1px;
+}
+
+.fixed-footer {
+  position: fixed;
   bottom: 0;
-  right:0;
+  right: 0;
 }
 
-@media (max-width: 500px){
-    .about{
-        margin: 0 2rem 0 2rem;
-    }
+@media (max-width: 500px) {
+  .about {
+    margin: 0 2rem 0 2rem;
+  }
 
-    .introduce{
-        margin-top:2rem;
-    }
+  .introduce {
+    margin-top: 2rem;
+  }
+
+  .title-1 {
+    font-size: 1.4rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+    margin: 2rem 0 0.5rem 0;
+  }
+  p {
+    font-size: 0.9rem;
+  }
 }

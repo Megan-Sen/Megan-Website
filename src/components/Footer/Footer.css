@@ -1,18 +1,25 @@
-.icons{
-    height: 3rem;
-    display: flex;
-    justify-content: flex-end;
+.icons {
+  height: 3rem;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.icon{
-    margin-right:4rem;
-    height: 2rem;
-    width: 2rem;
+.icon {
+  margin-right: 4rem;
+  height: 2rem;
+  width: 2rem;
 }
-
 
 /* .footer {
   position: fixed;
   bottom: 0;
   right:0;
 } */
+
+@media (max-width: 700px) {
+  .icon {
+    margin-right: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
