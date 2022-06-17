@@ -18,7 +18,7 @@ h3{
     src: url("./Rafale-BG.otf") format("opentype");
 }
 
-@media (max-width: 700px){
+@media (max-width: 600px){
 .nav-bar{
 display: flex;
 flex-direction: column-reverse;

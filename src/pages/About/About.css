@@ -107,7 +107,7 @@ hr {
   }
 }
 
-@media (orientation: landscape) and (max-width: 900px){
+@media (orientation: landscape) and (max-width: 1030px){
 .introduce{
   margin: 2rem 0 0 0;
 }
@@ -118,10 +118,10 @@ hr {
 
   .title {
     font-size: 0.9rem;
-    margin: 1rem 0 0.5rem 0;
+    margin: 0.8rem 0 0.5rem 0;
   }
   p {
     font-size: 0.8rem;
   }
-
 }
+

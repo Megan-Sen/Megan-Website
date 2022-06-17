@@ -149,3 +149,29 @@
     left: 40vw;
   }
 }
+
+@media (orientation: landscape) and (max-width: 1030px){
+  .js1 {
+    padding: 8vw;
+    margin-left: 32vw;
+    margin-top: 15vh;
+  }
+
+  .js2 {
+    padding: 13vw;
+    top: 37vh;
+    left: 38vw;
+  }
+    .js3 {
+    padding: 6vw;
+    top: 23vh;
+    left: 50vw;
+  }
+ .js6 {
+    padding: 1.5vw;
+    top: 80vh;
+    left: 27vw;
+  }
+}
+
+

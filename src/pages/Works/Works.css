@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin:4rem 3rem 10rem 3rem;
+    margin:4rem 3rem 5rem 3rem;
 }
 
 
@@ -24,7 +24,7 @@
 }
 
 
-@media (orientation: landscape) and (max-width: 900px){
+@media (orientation: landscape) and (max-width: 1030px){
     .works-conteiner{
         margin: 0rem 3rem 10rem 3rem;
     }
@@ -35,4 +35,6 @@
 .work-date{
     font-size: 1rem;
 }
+
+
 }
