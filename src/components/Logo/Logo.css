@@ -23,6 +23,6 @@ h3 {
 @media (orientation: landscape) and (max-width: 1030px){
     h1 {
     margin: 0.2rem 0 0 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }

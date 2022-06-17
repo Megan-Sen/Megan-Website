@@ -39,7 +39,7 @@ li{
 @media (orientation: landscape) and (max-width: 1030px){
     ul{
 padding-left:0;
-margin:0.6rem 1rem 0 0;
+margin:0.3rem 1rem 0 0;
   }
 
 li{

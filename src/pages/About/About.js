@@ -12,7 +12,7 @@ export default function About() {
       <div className="profile">
         <div className="introduce">
           <p className="title-1">Profile</p>
-          <hr></hr>
+          <hr className="line-under-profile"></hr>
           <p className="title">Megan Sen</p>
           <p>Front End Developer based in the UK</p>
           <p>Internship at DIJIPIJI LIMITED in Edinburgh since Feb 2022</p>
@@ -24,8 +24,7 @@ export default function About() {
 
           <p className="title">Contact</p>
           <p>megan@dijipiji.is</p>
-          <p className="title">Detail</p>
-          <p>
+          <p className="title">
             CV <FontAwesomeIcon icon={faPaperclip}></FontAwesomeIcon>
           </p>
         </div>

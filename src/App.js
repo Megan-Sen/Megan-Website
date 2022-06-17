@@ -20,7 +20,7 @@ function App() {
           <Logo />
           <Nav />
         </div>
-        <hr />
+        <hr className="line-under-logo" />
         <h3>Front End Developer - JavaScript & React</h3>
 
         <main>
