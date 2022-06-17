@@ -106,3 +106,22 @@ hr {
     font-size: 0.9rem;
   }
 }
+
+@media (orientation: landscape) and (max-width: 900px){
+.introduce{
+  margin: 2rem 0 0 0;
+}
+ .title-1 {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .title {
+    font-size: 0.9rem;
+    margin: 1rem 0 0.5rem 0;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+
+}

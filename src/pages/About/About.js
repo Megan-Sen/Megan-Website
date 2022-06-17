@@ -16,13 +16,18 @@ export default function About() {
           <p className="title">Megan Sen</p>
           <p>Front End Developer based in the UK</p>
           <p>Internship at DIJIPIJI LIMITED in Edinburgh since Feb 2022</p>
-          <p>Graduated from 1 year coding course CODE YOUR FUTURE in Feb 2022</p>
+          <p>
+            Graduated from 1 year coding course CODE YOUR FUTURE in Feb 2022
+          </p>
           <p className="title">Skill</p>
           <p>React, Javascript, Node.js</p>
+
           <p className="title">Contact</p>
           <p>megan@dijipiji.is</p>
           <p className="title">Detail</p>
-          CV <FontAwesomeIcon icon={faPaperclip}></FontAwesomeIcon>
+          <p>
+            CV <FontAwesomeIcon icon={faPaperclip}></FontAwesomeIcon>
+          </p>
         </div>
         {/* <div className="avatar">
           <div className="my-avatar-shadow-2"></div>

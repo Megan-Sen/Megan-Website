@@ -22,3 +22,17 @@
      text-align: center;
     font-size: 1.3rem;
 }
+
+
+@media (orientation: landscape) and (max-width: 900px){
+    .works-conteiner{
+        margin: 0rem 3rem 10rem 3rem;
+    }
+    .work-title{
+    font-size: 1.1rem;
+}
+
+.work-date{
+    font-size: 1rem;
+}
+}
