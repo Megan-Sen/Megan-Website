@@ -55,7 +55,9 @@ export default function Works() {
           </div>
         ))}
       </div>
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </>
   );
 }
