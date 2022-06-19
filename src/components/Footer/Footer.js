@@ -7,9 +7,8 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 function Footer() {
   return (
     <>
-      <div className="footer">
+      <footer>
         <div className="icons">
-          <i class="fa-solid fa-circle-plus fa-beat"></i>
           <a
             href="https://github.com/Megan-Sen"
             target="_blank"
@@ -24,9 +23,8 @@ function Footer() {
           >
             <FontAwesomeIcon icon={faLinkedin} className="icon" alt="linkedin-icon"/>
           </a>
-          {/* <FontAwesomeIcon icon={faEnvelope} className="icon" /> */}
         </div>
-      </div>
+      </footer>
     </>
   );
 }

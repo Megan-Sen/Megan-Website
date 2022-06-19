@@ -7,16 +7,18 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div className="hero-container">
-      <div className="js1"></div>
-      <div className="js2"></div>
-      <div className="js3"></div>
-      <div className="js4"></div>
-      <div className="js5"></div>
-      <div className="js6"></div>
+    <>
+      <main>
+        <div className="js1"></div>
+        <div className="js2"></div>
+        <div className="js3"></div>
+        <div className="js4"></div>
+        <div className="js5"></div>
+        <div className="js6"></div>
+      </main>
       <div className="fixed-footer">
         <Footer />
       </div>
-    </div>
+    </>
   );
 }

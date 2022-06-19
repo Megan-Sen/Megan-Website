@@ -1,8 +1,8 @@
-.hero-container {
+main {
   display: flex;
   justify-content: center;
   width: 100vw;
-  animation: fadein 3s forwards;
+  animation: fadein 1s forwards;
 }
 @keyframes fadein {
   0% {
