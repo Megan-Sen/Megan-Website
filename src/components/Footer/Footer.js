@@ -15,14 +15,14 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} className="icon" />
+            <FontAwesomeIcon icon={faGithub} className="icon" alt="github-icon"/>
           </a>
           <a
             href="https://www.linkedin.com/in/megan-sen-5429b6218/"
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} className="icon" />
+            <FontAwesomeIcon icon={faLinkedin} className="icon" alt="linkedin-icon"/>
           </a>
           {/* <FontAwesomeIcon icon={faEnvelope} className="icon" /> */}
         </div>
