@@ -21,7 +21,7 @@ function App() {
           <Nav />
         </div>
         <hr className="line-under-logo" />
-        <h3>Front End Developer - JavaScript & React</h3>
+        <h3>Front End Developer</h3>
 
         <main>
           <Switch>
