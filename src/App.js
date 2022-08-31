@@ -23,13 +23,13 @@ function App() {
         <hr className="line-under-logo" />
         <h3>Front End Developer</h3>
 
-        <main>
+        
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/works" component={Works} />
           </Switch>
-        </main>
+        
       </Router>
       {/* <Footer /> */}
     </div>
