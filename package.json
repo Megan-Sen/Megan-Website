@@ -1,5 +1,6 @@
 {
   "name": "megan-website",
+  "homepage": "https://dijipiji.com/meg/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
