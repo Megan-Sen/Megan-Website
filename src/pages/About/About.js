@@ -1,7 +1,7 @@
 import React from "react";
 // import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaperclip } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faPaperclip } from "@fortawesome/free-solid-svg-icons";
 import "./About.css";
 import Footer from "../../components/Footer/Footer";
 // import avatar from "./avatar.png";
@@ -24,9 +24,9 @@ export default function About() {
 
           <p className="title">Contact</p>
           <p>megan@dijipiji.is</p>
-          <p className="title">
+          {/* <p className="title">
             CV <FontAwesomeIcon icon={faPaperclip}></FontAwesomeIcon>
-          </p>
+          </p> */}
         </div>
         {/* <div className="avatar">
           <div className="my-avatar-shadow-2"></div>
