@@ -4,7 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import Work from "../../components/Work/Work";
 import finalproject from "./fina--project.png";
 import tvshow from "./tv-show.png";
-import cakeshop from "./cake.png";
+import hotel from "./hotel.png";
 import bg1 from "./bg1.png";
 import bg2 from "./bg2.png";
 import bg3 from "./bg3.png";
@@ -29,10 +29,10 @@ const worksImages = [
   },
   {
     img: bg3,
-    img2: cakeshop,
-    url: "https://cakeshop-website.netlify.app",
-    title: "Website for Cake Shop",
-    date: "June 2021",
+    img2: hotel,
+    url: "https://cyf-hotel-pro.netlify.app/",
+    title: "Website for Hotel",
+    date: "October 2021",
   },
 ];
 
