@@ -15,7 +15,7 @@ import Works from "./pages/Works/Works";
 function App() {
   return (
     <div className="app">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/meg/">
         <div className="nav-bar">
           <Logo />
           <Nav />
