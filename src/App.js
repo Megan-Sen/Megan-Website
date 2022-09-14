@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
 import Logo from "./components/Logo/Logo";
 // import Footer from "./components/Footer/Footer";
@@ -15,7 +15,7 @@ import Works from "./pages/Works/Works";
 function App() {
   return (
     <div className="app">
-      <Router>
+      <BrowserRouter basename="/meg/">
         <div className="nav-bar">
           <Logo />
           <Nav />
@@ -30,7 +30,7 @@ function App() {
             <Route exact path="/works" component={Works} />
           </Switch>
         
-      </Router>
+      </BrowserRouter>
       {/* <Footer /> */}
     </div>
   );
