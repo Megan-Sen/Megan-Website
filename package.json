@@ -1,5 +1,6 @@
 {
   "name": "megan-website",
+  "homepage": "https://dijipiji.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,6 +44,5 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.0.24"
-  },
-   "homepage": "/meg/"
+  }
 }
