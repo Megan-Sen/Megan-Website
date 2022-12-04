@@ -11,12 +11,12 @@ const Work = ({primaryImg, secondaryImg}) => {
         <img
           className="work-card-img"
           onMouseOver={() => {
-            imageRef.current.src = secondaryImg;
-          }}
-          onMouseOut={() => {
             imageRef.current.src = primaryImg;
           }}
-          src={primaryImg}
+          onMouseOut={() => {
+            imageRef.current.src = secondaryImg;
+          }}
+          src={secondaryImg}
           alt=""
           ref={imageRef}
         />
