@@ -2,7 +2,7 @@ import React from "react";
 import "./Works.css";
 import Footer from "../../components/Footer/Footer";
 import Work from "../../components/Work/Work";
-import finalproject from "./fina--project.png";
+import iOSApp from "./dijipiji.png";
 import tvshow from "./tv-show.png";
 import hotel from "./hotel.png";
 import bg1 from "./bg1.png";
@@ -15,10 +15,10 @@ import bg3 from "./bg3.png";
 const worksImages = [
   {
     img: bg1,
-    img2: finalproject,
-    url: "https://sensational-life-asd.herokuapp.com/",
-    title: "Website for SensetionalLife",
-    date: "February 2022",
+    img2: iOSApp,
+    url: "http://dijipiji.is/",
+    title: "Website for iOS Apps",
+    date: "August 2022",
   },
   {
     img: bg2,
